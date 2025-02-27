@@ -21,7 +21,8 @@ function Header() {
     if (element) {
       const headerOffset = 80; // Adjust this value as needed
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerOffset;
 
       window.scrollTo({
         top: offsetPosition,
@@ -49,7 +50,10 @@ function Header() {
       <Container>
         <div className="flex items-center justify-between font-clash pt-5">
           {/* Site Title - always visible */}
-          <div className="cursor-pointer" onClick={() => scrollToSection("hero")}>
+          <div
+            className="cursor-pointer"
+            onClick={() => scrollToSection("hero")}
+          >
             <h1 className="text-mainColor2 text-4xl menu:text-5xl">
               .shikhaliyeva
             </h1>
@@ -71,7 +75,7 @@ function Header() {
             </ul>
             <button
               onClick={() => scrollToSection("contact")}
-              className="w-[180px] h-[50px] bg-gradient-to-t from-mainColor3 via-purple500 to-purple500 text-white rounded-full border-0 outline-none cursor-pointer relative shadow-lg overflow-hidden group"
+              className="w-[180px] h-[50px] bg-purple500 text-white rounded-full border-0 outline-none cursor-pointer relative shadow-lg overflow-hidden group"
             >
               <span className="absolute w-full top-1/2 left-0 transform -translate-y-1/2 text-lg uppercase tracking-tight transition-all duration-500 group-hover:top-[-100%]">
                 Contact me
