@@ -4,6 +4,7 @@ import Container from "../Container";
 import Slider from "../Slider";
 import { FaGithub } from "react-icons/fa";
 import style from "./style.module.css";
+import Typewriter from "../Typewriter";
 
 function Hero({ id }) {
   return (
