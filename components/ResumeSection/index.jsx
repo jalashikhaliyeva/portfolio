@@ -37,7 +37,7 @@ const ResumeSection = ({ id}) => {
                 </div>
                 <div className={styles.experienceOrg}>Markup Agency</div>
                 <div className={styles.experienceDuration}>
-                  April 2024 - Present
+                  March 2024 - Present
                 </div>
               </div>
               {/* Right Column – Title & Description */}
