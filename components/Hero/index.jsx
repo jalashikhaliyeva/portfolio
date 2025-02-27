@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import Container from "../Container";
-import Typewriter from "@/Components/Typewriter"; // adjust the import path as needed
 import Slider from "../Slider";
 import { FaGithub } from "react-icons/fa";
 import style from "./style.module.css";
