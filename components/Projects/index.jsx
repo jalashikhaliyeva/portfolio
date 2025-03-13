@@ -17,6 +17,16 @@ const mockData = [
     url: "https://baku-videography-markup.vercel.app/",
   },
   {
+    id: 7,
+    imageHover: "/images/mockups/blue.png",
+    image: "/images/mockups/blue.png",
+    alt: "Project 3",
+    title: "Next.js",
+    description: "A personal finance app to manage your money smartly.",
+    buttonText: "Learn More",
+    url: "https://blue-birds-team.vercel.app/",
+  },
+  {
     id: 1,
     imageHover: "/images/mockups/markup-agency.png",
     image: "/images/mockups/markup-agency.png",
@@ -35,6 +45,16 @@ const mockData = [
     description: "A personal finance app to manage your money smartly.",
     buttonText: "Learn More",
     url: "https://innosert.az/",
+  },
+  {
+    id: 7,
+    imageHover: "/images/mockups/qlc.png",
+    image: "/images/mockups/qlc.png",
+    alt: "Project 3",
+    title: "Html & Css",
+    description: "A personal finance app to manage your money smartly.",
+    buttonText: "Learn More",
+    url: "https://qaradakh-logistic-centre.vercel.app/",
   },
   {
     id: 2,
