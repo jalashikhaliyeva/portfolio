@@ -14,7 +14,7 @@ const mockData = [
     title: "Next.js",
     description: "A personal finance app to manage your money smartly.",
     buttonText: "Learn More",
-    url: "https://baku-videography-markup.vercel.app/",
+    url: "https://bakucreators.com/",
   },
   {
     id: 7,
