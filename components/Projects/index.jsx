@@ -8,7 +8,7 @@ import Container from "../Container";
 const mockData = [
   {
     id: 6,
-    imageHover: "/images/mockups/Purple and Black Elegant Business Pitch Deck Presentation Laptop Mockup Instagram Post.png",
+     imageHover: "/images/mockups/ and Black Elegant Business Pitch Deck Presentation Laptop Mockup Instagram Post.png",
     image: "/images/mockups/baku-video.png",
     alt: "Project 3",
     title: "Next.js",
@@ -48,8 +48,8 @@ const mockData = [
   },
   {
     id: 7,
-    imageHover: "/images/mockups/qlc.png",
-    image: "/images/mockups/qlc.png",
+    imageHover: "/images/mockups/qlcmockup.png",
+    image: "/images/mockups/qlcmockup.png",
     alt: "Project 3",
     title: "Html & Css",
     description: "A personal finance app to manage your money smartly.",
