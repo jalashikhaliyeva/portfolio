@@ -24,7 +24,7 @@ const mockData = [
     title: "Next.js",
     description: "A personal finance app to manage your money smartly.",
     buttonText: "Learn More",
-    url: "https://blue-birds-team.vercel.app/",
+    url: "https://bluebirds.team/",
   },
   {
     id: 1,
