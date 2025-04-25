@@ -8,7 +8,7 @@ import Container from "../Container";
 const mockData = [
   {
     id: 6,
-     imageHover: "/images/mockups/ and Black Elegant Business Pitch Deck Presentation Laptop Mockup Instagram Post.png",
+     imageHover: "/images/mockups/baku-video.png",
     image: "/images/mockups/baku-video.png",
     alt: "Project 3",
     title: "Next.js",
