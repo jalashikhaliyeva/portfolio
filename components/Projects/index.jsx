@@ -4,11 +4,10 @@ import Title from "../Title";
 import ProjectCard from "../ProjectCard";
 import Container from "../Container";
 
-
 const mockData = [
   {
     id: 6,
-     imageHover: "/images/mockups/baku-video.png",
+    imageHover: "/images/mockups/baku-video.png",
     image: "/images/mockups/baku-video.png",
     alt: "Project 3",
     title: "Next.js",
@@ -17,14 +16,14 @@ const mockData = [
     url: "https://bakucreators.com/",
   },
   {
-    id: 7,
-    imageHover: "/images/mockups/blue.png",
-    image: "/images/mockups/blue.png",
+    id: 8,
+    imageHover: "/images/mockups/Agriman.png",
+    image: "/images/mockups/Agriman.png",
     alt: "Project 3",
     title: "Next.js",
     description: "A personal finance app to manage your money smartly.",
     buttonText: "Learn More",
-    url: "https://bluebirds.team/",
+    url: "https://agriman-front.markup.az/",
   },
   {
     id: 1,
@@ -37,15 +36,16 @@ const mockData = [
     url: "https://markup-green.vercel.app/",
   },
   {
-    id: 4,
-    imageHover: "/images/mockups/innoser.png",
-    image: "/images/mockups/innoser.png",
+    id: 7,
+    imageHover: "/images/mockups/blue.png",
+    image: "/images/mockups/blue.png",
     alt: "Project 3",
     title: "Next.js",
     description: "A personal finance app to manage your money smartly.",
     buttonText: "Learn More",
-    url: "https://innosert.az/",
+    url: "https://bluebirds.team/",
   },
+
   {
     id: 7,
     imageHover: "/images/mockups/qlcmockup.png",
@@ -56,6 +56,17 @@ const mockData = [
     buttonText: "Learn More",
     url: "https://qaradakh-logistic-centre.vercel.app/",
   },
+  {
+    id: 4,
+    imageHover: "/images/mockups/innoser.png",
+    image: "/images/mockups/innoser.png",
+    alt: "Project 3",
+    title: "Next.js",
+    description: "A personal finance app to manage your money smartly.",
+    buttonText: "Learn More",
+    url: "https://innosert.az/",
+  },
+
   {
     id: 2,
     imageHover: "/images/mockups/Poodlepom1.png",
@@ -76,7 +87,7 @@ const mockData = [
     buttonText: "Learn More",
     url: "https://bakuheartdays.az/",
   },
- 
+
   {
     id: 5,
     imageHover: "/images/mockups/bc-group.png",
@@ -87,27 +98,21 @@ const mockData = [
     buttonText: "Learn More",
     url: "https://bc-group.az/",
   },
- 
-
-
 ];
 
-function Projects({id}) {
+function Projects({ id }) {
   return (
-    <div id={id}  className={`${style.container}  mb-60`}>
+    <div id={id} className={`${style.container}  mb-60`}>
       <div className="mt-60">
-      <Title title={"My Projects"} />
-
+        <Title title={"My Projects"} />
       </div>
       <Container>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mt-10 ">
-        {mockData.map((card) => (
-          <ProjectCard key={card.id} cardData={card} />
-        ))}
-      </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mt-10 ">
+          {mockData.map((card) => (
+            <ProjectCard key={card.id} cardData={card} />
+          ))}
+        </div>
       </Container>
-    
     </div>
   );
 }
