@@ -23,7 +23,7 @@ const mockData = [
     title: "Next.js",
     description: "A personal finance app to manage your money smartly.",
     buttonText: "Learn More",
-    url: "https://agriman-front.markup.az/",
+    url: "https://agrimanconsulting.com/",
   },
   {
     id: 1,
@@ -54,7 +54,7 @@ const mockData = [
     title: "Html & Css",
     description: "A personal finance app to manage your money smartly.",
     buttonText: "Learn More",
-    url: "https://qaradakh-logistic-centre.vercel.app/",
+    url: "https://qlc.az/",
   },
   {
     id: 4,
